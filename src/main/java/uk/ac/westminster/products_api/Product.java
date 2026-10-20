@@ -1,5 +1,7 @@
 package uk.ac.westminster.products_api;
 
+import java.util.Collection;
+
 public class Product {
 
     private Long id;
@@ -29,4 +31,7 @@ public class Product {
    public Long getId() { return id;}
     // public String getName() { return name;}
     public double getPrice() { return price;}
+
+    public Collection<Object> getName() {
+    }
 }
